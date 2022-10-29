@@ -5,8 +5,10 @@
 @use "base/typography" as *;
 
 // Components modules
+@use "components/legalText" as *;
 @use "components/logo" as *;
 @use "components/search" as *;
+@use "components/sideNav" as *;
 @use "components/userNav" as *;
 
 // Layout modules
