@@ -1,0 +1,30 @@
+{
+  "name": "trillo",
+  "version": "1.0.0",
+  "description": "Landing page for trillo",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "sass --watch sass/main.scss css/style.css",
+    "compile:sass": "sass sass/main.scss css/style.comp.css",
+    "prefix:css": "postcss css/style.comp.css --use autoprefixer -o css/style.prefix.css",
+    "compress:css": "sass css/style.prefix.css css/style.css --style=compressed",
+    "build:css": "npm-run-all compile:sass prefix:css compress:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheInfamousGrim/advanced-css-course-trillo.git"
+  },
+  "author": "George Fincher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheInfamousGrim/advanced-css-course-trillo/issues"
+  },
+  "homepage": "https://github.com/TheInfamousGrim/advanced-css-course-trillo#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "concat": "^1.0.3",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.16",
+    "postcss-cli": "^10.0.0"
+  }
+}

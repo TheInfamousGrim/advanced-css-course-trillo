@@ -1,17 +1,21 @@
-/*
-COLORS
+// Abstract modules
 
-Primary: #eb2f64
-Primary light: #FF3366
-Primary dark: #BA265D
+// Base modules
+@use "base/base" as *;
+@use "base/typography" as *;
 
-Grey light 1: #faf9f9
-Grey light 2: #f4f2f2
-Grey light 3: #f0eeee
-Grey light 4: #ccc
+// Components modules
+@use "components/logo" as *;
+@use "components/search" as *;
+@use "components/userNav" as *;
 
-Grey dark 1: #333
-Grey dark 2: #777
-Grey dark 3: #999
+// Layout modules
+@use "layout/container" as *;
+@use "layout/content" as *;
+@use "layout/footer" as *;
+@use "layout/header" as *;
+@use "layout/hotelView" as *;
+@use "layout/sidebar" as *;
 
-*/
+// Pages modules
+@use "pages/home" as *;
