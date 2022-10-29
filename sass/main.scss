@@ -1,12 +1,16 @@
 // Abstract modules
 
 // Base modules
+@use "base/animation" as *;
 @use "base/base" as *;
 @use "base/typography" as *;
 
 // Components modules
+@use "components/btn-inline" as *;
+@use "components/gallery" as *;
 @use "components/legalText" as *;
 @use "components/logo" as *;
+@use "components/overview" as *;
 @use "components/search" as *;
 @use "components/sideNav" as *;
 @use "components/userNav" as *;
