@@ -7,13 +7,19 @@
 
 // Components modules
 @use "components/btn-inline" as *;
+@use "components/description" as *;
+@use "components/detail" as *;
 @use "components/gallery" as *;
 @use "components/legalText" as *;
+@use "components/list" as *;
 @use "components/logo" as *;
 @use "components/overview" as *;
+@use "components/paragraph" as *;
+@use "components/recommend" as *;
 @use "components/search" as *;
 @use "components/sideNav" as *;
 @use "components/userNav" as *;
+@use "components/userReviews" as *;
 
 // Layout modules
 @use "layout/container" as *;
