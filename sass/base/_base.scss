@@ -1,4 +1,5 @@
-// Device Breakpoints
+// Imports
+@use "../abstracts/variables" as *;
 
 :root {
   // Colors
@@ -51,9 +52,15 @@ body {
 }
 
 html {
+  box-sizing: border-box;
   // This defines what 1 rem is
   font-size: 62.5%; // 1rem === 10px
 
   // enable smooth scrolling
   scroll-behavior: smooth;
+
+  // Get ri
+  @media only screen and (max-width: $bp-large) {
+    font-size: 50%;
+  }
 }

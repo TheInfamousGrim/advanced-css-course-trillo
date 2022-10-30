@@ -1,4 +1,5 @@
 // Abstract modules
+@use "abstracts/variables" as *;
 
 // Base modules
 @use "base/animation" as *;
@@ -7,8 +8,9 @@
 
 // Components modules
 @use "components/btn-inline" as *;
+@use "components/btn" as *;
+@use "components/cta" as *;
 @use "components/description" as *;
-@use "components/detail" as *;
 @use "components/gallery" as *;
 @use "components/legalText" as *;
 @use "components/list" as *;
@@ -20,15 +22,16 @@
 @use "components/search" as *;
 @use "components/sideNav" as *;
 @use "components/userNav" as *;
-@use "components/userReviews" as *;
 
 // Layout modules
 @use "layout/container" as *;
 @use "layout/content" as *;
+@use "layout/detail" as *;
 @use "layout/footer" as *;
 @use "layout/header" as *;
 @use "layout/hotelView" as *;
 @use "layout/sidebar" as *;
+@use "layout/userReviews" as *;
 
 // Pages modules
 @use "pages/home" as *;
